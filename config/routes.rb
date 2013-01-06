@@ -1,6 +1,10 @@
-Batchat::Application.routes.draw do
+MassCall::Application.routes.draw do
+  match '/recordings' => 'recordings#create', :via => :post
+
   resources :users
   root :to => 'pages#index'
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

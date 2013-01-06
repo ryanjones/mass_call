@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Masscall::Application.load_tasks
+MassCall::Application.load_tasks
