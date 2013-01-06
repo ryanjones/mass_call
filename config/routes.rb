@@ -1,4 +1,5 @@
 MassCall::Application.routes.draw do
+  match '/recordings' => 'recordings#create', :via => :get
   match '/recordings' => 'recordings#create', :via => :post
 
   resources :users
