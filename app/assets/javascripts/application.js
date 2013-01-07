@@ -29,6 +29,6 @@
 //= require_tree .
 // Run the Batman app
 $(document).ready(function(){
-  Masscall.run();
+  MassCall.run();
 });
 

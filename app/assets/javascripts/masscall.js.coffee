@@ -1,13 +1,14 @@
-window.Masscall = class Masscall extends Batman.App
+window.MassCall = class MassCall extends Batman.App
   Batman.ViewStore.prefix = 'assets/views'
 
   @root 'app#index'
+  @resources 'recordings'
 
   @on 'run', ->
     console?.log "Running ...."
 
   @on 'ready', ->
-    console?.log "Masscall ready for use."
+    console?.log "MassCall ready for use."
 
   @flash: Batman()
   @flash.accessor

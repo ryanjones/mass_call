@@ -1,5 +1,5 @@
-class MassCall.AppController extends Batman.Controller
-  routingKey: 'app'
+class MassCall.RecordingsController extends Batman.Controller
+  routingKey: 'recordings'
 
   index: (params) ->
     MassCall.Recording.load (err,results) =>
